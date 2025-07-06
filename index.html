@@ -302,7 +302,6 @@ function handleAuth(response) {
             const session = result[0].n8n_session;
             localStorage.setItem("custodia/id", id)
             localStorage.setItem("n8n-chat/sessionId", session)
-            localStorage.removeItem("n8n-chat/sessionId")
             window.location.href = 'chat.html';
          } else {
             throw new Error("Authentication failed");
