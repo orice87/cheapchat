@@ -96,16 +96,6 @@ body {
     justify-content: space-between;
     align-items: center;
     border-bottom: solid #3f3f3f;
-    @media (max-width: 650px) {
-        #branding, .header-link {
-            min-height: 216px;
-        }
-    }
-    @media (max-width: 480px) {
-        #branding, .header-link {
-            min-height: 160px;
-        }
-    }
 }
 
 .logo-section {
