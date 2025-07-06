@@ -55,7 +55,21 @@
     target: ".chat-area",    
     showWelcomeScreen : false,
     mode : 'fullscreen',
-		webhookUrl: 'https://orice87.app.n8n.cloud/webhook/e90cd992-fbda-4c38-a83f-b713431df2a1/chat'
+	webhookUrl: 'https://orice87.app.n8n.cloud/webhook/e90cd992-fbda-4c38-a83f-b713431df2a1/chat',
+    defaultLanguage: 'ru',
+	initialMessages: [
+		'Здравствуйте! 👋',
+		'Вы готовы обсудить вопросы преемственности?'
+	],
+	i18n: {
+		ru: {
+			title: 'Привет! 👋',
+			subtitle: "Писайте в чат...",
+			footer: '',
+			getStarted: 'Новая конверсия',
+			inputPlaceholder: 'Пишите ваше сообщение..',
+		},
+	},
 	});
 
 
